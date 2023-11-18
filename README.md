@@ -1,0 +1,2 @@
+# Market_project
+ Welcome to Market_project, a cutting-edge Android application developed as part of the "Mobile Development" course. This app is designed to streamline inventory management for supermarkets, providing an efficient and user-friendly solution for keeping track of stock levels. With the Market_project app, supermarkets can now take control of their inventory management processes with ease.

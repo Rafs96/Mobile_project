@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+    <Button
+        android:id="@+id/btnCadastrarProduto"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="52dp"
+        android:padding="10dp"
+        android:text="Cadastrar Produto" />
+
+    <Button
+        android:id="@+id/btnListarProdutos"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="50dp"
+        android:padding="10dp"
+        android:text="Listar Produtos" />
+
+    <Button
+        android:id="@+id/btnAlterarProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCadastrarProduto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="385dp"
+        android:padding="10dp"
+        android:text="Alterar Produto" />
+
+    <Button
+        android:id="@+id/btnDeletarProdutos"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnListarProdutos"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="197dp"
+        android:padding="10dp"
+        android:text="Deletar Produtos" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-47dp"
+        app:srcCompat="@drawable/menu_page" />
+
+</RelativeLayout>
